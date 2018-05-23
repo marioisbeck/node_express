@@ -6,9 +6,14 @@ const bodyParser = require('body-parser');
 const hostname = 'localhost';
 const port = 3000;
 
+const dishRouter = require('./routes/dishRouter');
+
 const app = express();
+
+
 app.use(morgan('dev'));
 app.use(bodyParser.json());
+app.use('/dishes', dishRouter);
 
 // app.get('/dishes/:dishId', (req,res,next) => {
 //     res.end('Will send details of the dish: ' + req.params.dishId +' to you!');
