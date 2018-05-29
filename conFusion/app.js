@@ -6,6 +6,7 @@ var session = require('express-session');
 var FileStore = require('session-file-store')(session);
 var passport = require('passport');
 var authenticate = require('./authenticate');
+var config = require('./config');
 
 var logger = require('morgan');
 
@@ -25,7 +26,7 @@ mongoose.Promise = require('bluebird');
 const Dishes = require('./models/dishes');
 
 // Connection URL
-const url = 'mongodb://localhost:27017/conFusion';
+const url = config.mongoUrl;
 const connect = mongoose.connect(url)
 		// since mongoose 5.x  not required anymore
     // useMongoClient: true,
