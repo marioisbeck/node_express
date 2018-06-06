@@ -1,0 +1,11 @@
+app id:
+2078366682486494
+
+app secret:
+ee82f05d5322c623c6d1f536ddd42e4f
+
+client token:
+a85ccf147bda5a9f1928005a11ea0a1f
+
+access token (after facebook login):
+EAAdiQ3PSlt4BAHkvQVyZAdw8UiZA9nWMRzINOZBlIxZBaDN1WzeRZCvlKG0arauy3oRUSkGBYpbHWbyfpojtuQGncwoQWMZAQXWjBSZCnv0PAomE0ktEmCcqOM67maQLKsUjMdOtDBgzd6IDF45GUpIXlNH9gXiT5IejW8ZChLZB2egZDZD
